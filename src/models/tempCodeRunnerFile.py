@@ -1,0 +1,2 @@
+rão")
+# print(shrimp.restrictions)
