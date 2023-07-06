@@ -5,7 +5,7 @@ from src.models.ingredient import Ingredient, Restriction  # noqa: F401, E261, E
 def test_ingredient():
     shrimp = Ingredient("camarão")
     cheese = Ingredient("queijo mussarela")
-    
+
     assert shrimp.__hash__() == shrimp.__hash__()
     assert shrimp.__hash__() != cheese.__hash__()
 
@@ -16,4 +16,3 @@ def test_ingredient():
     assert Restriction.ANIMAL_DERIVED in shrimp.restrictions
 
     assert shrimp.__eq__(shrimp) is True
-

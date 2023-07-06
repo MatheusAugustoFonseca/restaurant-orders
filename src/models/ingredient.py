@@ -64,4 +64,4 @@ class Ingredient:
 
 
 # print(Ingredient("camarão").restrictions)
-print(Ingredient("camarão").name)
+# print(Ingredient("camarão").name)
